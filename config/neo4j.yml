@@ -1,0 +1,6 @@
+development:
+  type: http
+  Env[url]: http://neo4j:graphdb@localhost:11008
+test:
+  type: http
+  url: http://neo4j:graphdb@localhost:11008
